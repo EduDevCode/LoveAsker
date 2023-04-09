@@ -101,7 +101,7 @@ h2
     text-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
     padding: .5rem 1rem;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-position: center center;
     bottom: 0;
     border-top: .15rem solid rgba(255, 255, 255, 1);
