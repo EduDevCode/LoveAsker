@@ -50,6 +50,10 @@ function contagem()
     if(count === 7)
     {
         alert("Um cara que toca violão, desenvolve códigos... " +"\n"+ "Não se encontra em qualquer lugar..."+"\n"+ "É só uma dica...");
+    }
+    
+    if(count === 8)
+    {
         count = 0;
     }
 }
