@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+body
+{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.container
+{
+    background: linear-gradient(175deg, rgb(255, 165, 0) 0%, rgb(255, 151, 16) 50%, rgb(255, 0, 0) 100%);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0 0 1rem #ff580a;
+    min-width: 260px;
+}
+
+h2
+{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
+    text-align: center;
+    
+}
+
+.btns
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.yes_btn, .no_btn
+{
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, .5);
+    border: .15rem solid rgba(255, 255, 255, 1);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.05s;
+}
+
+.yes_btn:hover, .no_btn:hover
+{
+    /* color: rgba(255, 255, 255, .5); */
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 0px 0px 20px 1px black;
+    transition: 0.05s;
+}
+
+.dnv
+{
+    margin-top: -100px;
+}
+
+.retry
+{
+    background: linear-gradient(175deg, rgb(255, 165, 0) 0%, rgb(255, 151, 16) 50%, rgb(255, 0, 0) 100%);
+    position: absolute;
+    transform: translate(-50%,-80%);
+    width: 320px;
+    padding: .5rem 1rem;
+    border: .15rem solid rgba(255, 255, 255, 1);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
+    
+}
+
+.retry:hover
+{
+    background:linear-gradient(175deg, rgba(255, 0, 0, .6)  0%, rgba(255, 151, 16, .6) 50%, rgba(255, 165, 0, .6) 100%);
+}
+
+
+.copyright
+{
+    font-family: 'Poppins';
+    color: #fff;
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
+    padding: .5rem 1rem;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    bottom: 0;
+    border-top: .15rem solid rgba(255, 255, 255, 1);
+    background:linear-gradient(175deg, rgba(255, 0, 0, 1)  0%, rgba(255, 151, 16, 1) 50%, rgba(255, 165, 0, 1) 100%);
+}
